@@ -21,7 +21,7 @@ class ComplexNumber {
 		// returning result
 		return res;
 	}
-	public static void main(String args[])
+	public static void main(String arg[])
 	{
 		// creating two complex numbers
 		ComplexNumber c1 = new ComplexNumber(4, 5);
@@ -40,7 +40,6 @@ class ComplexNumber {
 		// displaying addition
 		System.out.println("\nAddition is :");
 		res.showC();
-	}
-	}
+	}}
 
 
