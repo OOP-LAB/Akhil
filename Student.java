@@ -1,16 +1,27 @@
-class Student{  
-  int rollno;
-  String name;
-  Student(int r,String n){
-     rollno=r;
-     name=n;
-  }
- public static void main(String[] args)
- {
- Student s1=new Student(1,"akhil");
- Student s2=new Student(2,"munawar");
- System.out.println(s1.rollno+" "+s1.name);
- System.out.println(s2.rollno+" "+s2.name);
- }
- }
-  
+class Student{
+    int rollno;
+    void display(){
+        System.out.println(rollno);
+    }
+class Student
+{
+int rollno;
+void display()
+{
+System.out.println(rollno);
+}
+public static void main(String args[])
+{
+    Student obj=new Student();
+    obj.rollno=6;
+    obj.display();
+Student obj=new Student();
+obj.rollno=6;
+Student obj1=new Student();
+obj1.rollno=7;
+obj.display();
+obj1.display();
+}
+}
+
+
